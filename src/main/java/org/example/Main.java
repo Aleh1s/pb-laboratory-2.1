@@ -2,7 +2,7 @@ package org.example;
 
 import org.example.mvc.ConsoleView;
 import org.example.mvc.Controller;
-import org.example.mvc.FileSystemModel;
+import org.example.mvc.SoccerTable;
 import org.example.mvc.View;
 
 import java.util.Locale;
@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        FileSystemModel model = new FileSystemModel();
+        SoccerTable model = new SoccerTable();
         View view = new ConsoleView(
                 new Controller(
                         model
@@ -24,7 +24,7 @@ public class Main {
             if (line.equals("-1")) break;
             boolean exit = false;
             while (!exit) {
-                System.out.println("If result.csv exists it will be removed. Do you want to continue? [Y/N]");
+                System.out.println("If the result.csv exists it, will be overwritten. Do you want to continue? [Y/N]");
                 String chosen = scanner.nextLine();
                 switch (chosen.toLowerCase(Locale.ROOT)) {
                     case "y" -> {

@@ -25,7 +25,8 @@ public class Logger {
             try {
                 createNewLoggerFile();
             } catch (CanNotCreateLogFileException e) {
-                e.printStackTrace();
+                System.err.println(e.getMessage());
+                System.exit(-1);
             }
         }
 

@@ -16,13 +16,13 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class FileSystemModel implements Model {
+public class SoccerTable implements Model {
 
     private final ResultTable resultTable;
     private final List<Observer> observers;
     private final Logger logger = Logger.getInstance();
 
-    public FileSystemModel() {
+    public SoccerTable() {
         observers = new ArrayList<>();
         resultTable = new ResultTable();
     }

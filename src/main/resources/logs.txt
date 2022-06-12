@@ -1,3 +1,8 @@
 [2022-06-06T10:12:09.749490500] Invalid team count number [asnd]. File [alskndas.txt]. Row 0
 [2022-06-06T10:12:09.749490500] Team count can not be empty string. File [input_1.csv]. Row 0
 [2022-06-06T10:12:09.749490500] Invalid team count number [11a]. File [input_2.csv]. Row 0
+[2022-06-12T09:54:19.521092600] Invalid team count number [asnd]. File [alskndas.txt]. Row 0
+[2022-06-12T09:54:19.613094300] Invalid goals number 4      :4. File input_1.csv. Row 1
+[2022-06-12T09:54:19.624101300] Team results can not be empty string or null. File input_1.csv. Row 3
+[2022-06-12T09:54:19.639505700] Invalid team count number [11a]. File [input_2.csv]. Row 0
+[2022-06-12T09:55:37.227881900] Can not access to directory [aksmdas]. Perhaps it does not exist or it does not contain some files
